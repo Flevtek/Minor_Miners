@@ -27,5 +27,15 @@ body {
 
 .go-into {
     text-align: center;
+    background: steelblue;
+    color: snow;
+}
+
+.go-into:hover {
     background: lightsteelblue;
+}
+
+.go-into:active {
+    color: black;
+    background: white;
 }
