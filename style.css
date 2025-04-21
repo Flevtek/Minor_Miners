@@ -1,0 +1,19 @@
+.head-box{
+    width:100vw;
+    height:10%;
+    background-color:gray;
+    display:flex;
+    flex-direction:row;
+}
+
+.miner-types{
+    color:black;
+    border:3px solid white;
+    border-radius:10px 10px;
+}
+
+.QnA{
+    color:black;
+    border:3px solid white;
+    border-radius:10px 10px;
+}
