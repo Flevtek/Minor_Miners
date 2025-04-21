@@ -17,7 +17,7 @@ for (let i=0; i<names.length; ++i) {
     text.innerText = descriptions[i]
 
     let btn = document.createElement("button")
-    text.innerText = "Перейти"
+    text.innerText = "Перейти к продукту"
 
     temp.appendChild(title)
     temp.appendChild(text)
