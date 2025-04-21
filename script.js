@@ -1,6 +1,6 @@
 main = document.querySelector(".table")
 
-let names = ["MEGA MINER", "Winlocker", "My talking destroyer"]
+let names = ["MEGA MINER", "Win locker", "My talking destroyer"]
 let descriptions =
     ["Лучший и самый незаметный майнер, чтобы зарабатывать на своих знакомых и врагах",
     "Классический винлокер, вымогай деньги с тех, кто должен тебе за булочку в столовой",
@@ -17,7 +17,8 @@ for (let i=0; i<names.length; ++i) {
     text.innerText = descriptions[i]
 
     let btn = document.createElement("button")
-    text.innerText = "Перейти к продукту"
+    btn.classList.add("go-into")
+    btn.innerText = "Перейти к продукту"
 
     temp.appendChild(title)
     temp.appendChild(text)
