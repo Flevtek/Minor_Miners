@@ -1,6 +1,7 @@
 let miners = document.querySelector("miner_types")
 let qna = document.querySelector("QnA")
 let support = document.querySelector("support")
+
 miners.addEventListener("click", function(){
     console.log("A")
 })
