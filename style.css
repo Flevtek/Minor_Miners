@@ -22,3 +22,33 @@
     border-radius:10px 10px;
 }
 
+.body {
+    background: lightblue;
+}
+
+.table {
+    width: 100vw;
+    height: 30vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: orange;
+    color: white;
+}
+
+.card>p {
+    text-align: center;
+}
+
+.go-into {
+    text-align: center;
+}
