@@ -4,22 +4,20 @@
     background-color:gray;
     display:flex;
     flex-direction:row;
+    color: black;
 }
 
-.miner-types{
-    color:black;
+.miner-types-btn{
     border:3px solid white;
     border-radius:10px 10px;
 }
 
-.QnA{
-    color:black;
+.QnA-btn{
     border:3px solid white;
     border-radius:10px 10px;
 }
 
-.support{
-    color:black;
+.support-btn{
     border:3px solid white;
     border-radius:10px 10px;
 }
