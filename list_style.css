@@ -1,0 +1,47 @@
+body {
+    background: lightblue;
+}
+
+.index-content {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: orange;
+    color: white;
+    padding: 10px;
+}
+
+.card>p {
+    text-align: center;
+}
+
+.go-into {
+    text-align: center;
+    background: steelblue;
+    color: snow;
+    transition: all 0.5s ease;
+}
+
+.go-into:hover {
+    background: lightsteelblue;
+}
+
+.go-into:active {
+    color: black;
+}

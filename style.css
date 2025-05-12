@@ -2,40 +2,51 @@ body {
     background: lightblue;
 }
 
-.table {
-    width: 100vw;
-    height: 30vw;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
+.central {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.card {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border: 1px solid black;
-    border-radius: 10px;
+h1 {
     background: orange;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px;
+    color: maroon;
+}
+
+p {
+    font-size: 16pt;
+    text-align: center;
+    background: orange;
+    border-radius: 5px;
+    padding: 5px;
     color: white;
 }
 
-.card>p {
-    text-align: center;
+span {
+    background: lightsteelblue;
+    color: black;
 }
 
-.go-into {
+.load {
     text-align: center;
     background: steelblue;
     color: snow;
+    transition: all 0.5s ease;
 }
 
-.go-into:hover {
+.load:hover {
     background: lightsteelblue;
 }
 
-.go-into:active {
+.load:active {
     color: black;
-    background: white;
+}
+
+img {
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
 }

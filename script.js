@@ -1,4 +1,4 @@
-main = document.querySelector(".table")
+main = document.querySelector(".index-content").querySelector(".table")
 
 let names = ["MEGA MINER", "Win locker", "My talking destroyer"]
 let descriptions =
@@ -16,10 +16,15 @@ for (let i=0; i<names.length; ++i) {
     let text = document.createElement("p")
     text.innerText = descriptions[i]
 
-    let btn = document.createElement("button")
-    btn.classList.add("go-into")
-    btn.innerText = "Перейти к продукту"
+    let btn = document.createElement("form")
+    btn.action = `product${i}.html`
 
+    let input = document.createElement("input")
+    input.classList.add("go-into")
+    input.type="submit"
+    input.value="Перейти к продукту"
+
+    btn.appendChild(input)
     temp.appendChild(title)
     temp.appendChild(text)
     temp.appendChild(btn)
