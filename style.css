@@ -1,23 +1,66 @@
-.head-box{
-    width:100vw;
-    height:10%;
-    background-color:gray;
+.body{
+    width:100%;
+}
+.logo-box{
     display:flex;
-    flex-direction:row;
-    color: black;
+    justify-content: space-between;
+    background-color:orange;
+    font-size: 60px;
+    color: white;
+    padding-left: 20px;
+    font-family:"Bernard MT Condensed";
+}
+.head-box{
+    width:100%;
+    height:210px;
+
+    display:flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 5px;
+    color: white;
+    font-family: "Gill Sans", sans-serif;
+    font-size: 20px;
+}
+.btn:hover{
+    padding:7px;
+}
+.about_us{
+    background: rgb(255, 120, 0);
+    border:2px solid white;
+    border-radius:5px 5px;
+    width: fit-content;
+    height: fit-content;
+    padding:5px;
+    margin:5px;
 }
 
-.miner-types-btn{
-    border:3px solid white;
-    border-radius:10px 10px;
+.miner_types{
+    background: rgb(255, 120, 0);
+    border:2px solid white;
+    border-radius:5px 5px;
+    width: fit-content;
+    height: fit-content;
+    padding:5px;
+    margin:5px;
 }
 
-.QnA-btn{
-    border:3px solid white;
-    border-radius:10px 10px;
+.QnA{
+    background: rgb(255, 120, 0);
+    border:2px solid white;
+    border-radius:5px 5px;
+    width: fit-content;
+    height: fit-content;
+    padding:5px;
+    margin:5px;
 }
 
-.support-btn{
-    border:3px solid white;
-    border-radius:10px 10px;
+.support{
+    background: rgb(255, 120, 0);
+    border:2px solid white;
+    border-radius:5px 5px;
+    width: fit-content;
+    height: fit-content;
+    padding:5px;
+    margin:5px;
 }

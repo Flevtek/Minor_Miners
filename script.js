@@ -1,12 +1,17 @@
-let miners = document.querySelector("miner_types")
-let qna = document.querySelector("QnA")
-let support = document.querySelector("support")
-miners.addEventListener("click", function(){
+let about = document.querySelector('.about_us')
+let miners = document.querySelector('.miner_types')
+let qna = document.querySelector('.QnA')
+let support = document.querySelector('.support')
+
+about.addEventListener('click', function(){
     console.log("A")
 })
-qna.addEventListener("click", function(){
+miners.addEventListener("click", function(){
     console.log("B")
 })
-support.addEventListener("click", function(){
+qna.addEventListener("click", function(){
     console.log("C")
+})
+support.addEventListener("click", function(){
+    console.log("D")
 })
