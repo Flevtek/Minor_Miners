@@ -4,14 +4,11 @@ let qna = document.querySelector('.QnA')
 let support = document.querySelector('.support')
 
 about.addEventListener('click', function(){
-    console.log("A")
+    window.location.href = "index.html"
 })
 miners.addEventListener("click", function(){
-    console.log("B")
-})
-qna.addEventListener("click", function(){
-    console.log("C")
+    window.location.href = "list.html"
 })
 support.addEventListener("click", function(){
-    console.log("D")
+    window.location.href = "support.html"
 })
